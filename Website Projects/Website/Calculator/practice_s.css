@@ -1,0 +1,30 @@
+body {
+    font-family: poppins;
+    background-color: darkslategrey;
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    color: lightcyan;
+    background-color: lightslategrey;
+    font-size: 23px;
+}
+
+.row {
+    margin: 5px 0;
+}
+
+.row input {
+    width: 275px;
+    margin: 0;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: cornsilk;
+}

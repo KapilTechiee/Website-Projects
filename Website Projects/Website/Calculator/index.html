@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator using html,css javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+
+</head>
+
+<body>
+
+    <h1 class="text-center">Welcome to Calculte me!</h1>
+    <div class="container flex flex-col items-center mx-auto">
+        <div class="row">
+            <input class="input" type="text" />
+        </div>
+
+        <div class="row">
+            <button class="button">C</button>
+            <button class="button">%</button>
+            <button class="button">M+</button>
+            <button class="button">M-</button>
+        </div>
+
+        <div class="row">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">/</button>
+        </div>
+        <div class="row">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">-</button>
+        </div>
+        <div class="row">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">+</button>
+        </div>
+        <div class="row">
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button class="button">=</button>
+            <button class="button">/</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 class="text-center">Welcome to Calculate me!</h1>
+    <div class="container flex flex-col items-center mx-auto">
+        <input class="input" type="text" id="display" disabled />
+        <div class="row">
+            <button class="button" onclick="clickButton('7')">7</button>
+            <button class="button" onclick="clickButton('8')">8</button>
+            <button class="button" onclick="clickButton('9')">9</button>
+            <button class="button" onclick="clickButton('*')">*</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="clickButton('4')">4</button>
+            <button class="button" onclick="clickButton('5')">5</button>
+            <button class="button" onclick="clickButton('6')">6</button>
+            <button class="button" onclick="clickButton('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="clickButton('1')">1</button>
+            <button class="button" onclick="clickButton('2')">2</button>
+            <button class="button" onclick="clickButton('3')">3</button>
+            <button class="button" onclick="clickButton('+')">+</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="clickButton('0')">0</button>
+            <button class="button" onclick="clickButton('.')">.</button>
+            <button class="button" onclick="calculate()">=</button>
+            <button class="button" onclick="clickButton('/')">/</button>
+        </div>
+    </div>
+
+    <script>
+        let display = document.getElementById('display');
+        let expression = '';
+
+        function clickButton(value) {
+            expression += value;
+            display.value = expression;
+        }
+
+        function calculate() {
+            try {
+                let result = eval(expression);
+                display.value = result;
+                expression = result;
+            } catch (error) {
+                display.value = 'Error';
+                expression = '';
+            }
+        }
+    </script>
+</body>
+
+</html> -->

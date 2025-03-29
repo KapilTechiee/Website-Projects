@@ -1,0 +1,45 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Card Style*/
+
+.card {
+    width: 300px;
+    margin: 20px auto;
+    border: 20pc solid #ccc;
+    border-radius: 10px;
+    box-shadow: 02px 5px rgba(red, green, blue, alpha)
+}
+
+.card-header {
+    background-color: antiquewhite;
+    padding: 10px;
+    border-bottom: 1px solid#ccc;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+
+/* Button Style */
+
+.button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #3e8e41;
+}

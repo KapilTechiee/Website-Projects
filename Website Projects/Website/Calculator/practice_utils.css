@@ -1,0 +1,43 @@
+#text-upper{
+    text-align: center;
+    position: relative; 
+    animation: moveSide 3s infinite; 
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  @keyframes moveSide {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 20px;
+    }
+    100% {
+      left: 0;
+    }
+}
+
+#text-lower{
+  text-align: center;
+  color: thistle;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
